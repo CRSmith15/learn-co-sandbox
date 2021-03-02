@@ -1,8 +1,4 @@
-require_relative "./mtg_card_info/version"
-require_relative "./mtg_card_info/cli"
-
-require "pry"
-
+require "mtg_card_info/version"
 
 module MtgCardInfo
   class Error < StandardError; end
